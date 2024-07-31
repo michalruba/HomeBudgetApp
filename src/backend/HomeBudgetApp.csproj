@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ClassLibrary.Models\bin\**" />
+    <Compile Remove="ClassLibrary.Models\obj\**" />
+    <Compile Remove="ClassLibrary.Repositories\bin\**" />
+    <Compile Remove="ClassLibrary.Repositories\obj\**" />
+    <Compile Remove="ClassLibrary.Services\bin\**" />
+    <Compile Remove="ClassLibrary.Services\obj\**" />
+    <Content Remove="ClassLibrary.Models\bin\**" />
+    <Content Remove="ClassLibrary.Models\obj\**" />
+    <Content Remove="ClassLibrary.Repositories\bin\**" />
+    <Content Remove="ClassLibrary.Repositories\obj\**" />
+    <Content Remove="ClassLibrary.Services\bin\**" />
+    <Content Remove="ClassLibrary.Services\obj\**" />
+    <EmbeddedResource Remove="ClassLibrary.Models\bin\**" />
+    <EmbeddedResource Remove="ClassLibrary.Models\obj\**" />
+    <EmbeddedResource Remove="ClassLibrary.Repositories\bin\**" />
+    <EmbeddedResource Remove="ClassLibrary.Repositories\obj\**" />
+    <EmbeddedResource Remove="ClassLibrary.Services\bin\**" />
+    <EmbeddedResource Remove="ClassLibrary.Services\obj\**" />
+    <None Remove="ClassLibrary.Models\bin\**" />
+    <None Remove="ClassLibrary.Models\obj\**" />
+    <None Remove="ClassLibrary.Repositories\bin\**" />
+    <None Remove="ClassLibrary.Repositories\obj\**" />
+    <None Remove="ClassLibrary.Services\bin\**" />
+    <None Remove="ClassLibrary.Services\obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.27" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.20" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+</Project>

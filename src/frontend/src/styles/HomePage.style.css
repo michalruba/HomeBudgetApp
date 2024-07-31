@@ -1,0 +1,162 @@
+.homePageContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.menuContainer {
+    display: flex;
+    align-items: center;
+}
+
+.menuContainer button {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menuContainer button:hover {
+    text-decoration: underline;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.budgetContainer,
+.transactionsContainer {
+    width: 48%; /* Adjust width based on desired gap between containers */
+}
+
+.budgetContainer h2,
+.transactionsContainer h2 {
+    margin-bottom: 10px;
+}
+
+.budgetList,
+.transactionList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.budgetItem,
+.transactionItem {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.budgetItem div,
+.transactionItem div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.budgetItem h3,
+.transactionItem strong {
+    margin-bottom: 5px;
+}
+
+.transactionItem strong {
+    font-weight: bold;
+}
+
+.transactionItem p {
+    margin-top: 5px;
+}
+
+.logoutButton {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.logoutButton:hover {
+    text-decoration: underline;
+}
+
+.dateFilterContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dateFilterContainer label {
+    margin-right: 10px;
+}
+
+.dateFilterContainer input,
+.dateFilterContainer select {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.dateFilterContainer button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.dateFilterContainer button:hover {
+    background-color: #0056b3;
+}
+
+.transactionListContainer {
+    position: relative;
+    overflow-y: auto;
+    max-height: 600px; /* Adjust as needed */
+}
+
+.transactionList {
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+}
+
+.transactionList li {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.transactionList li button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.transactionList li button:hover {
+    background-color: #c82333;
+}

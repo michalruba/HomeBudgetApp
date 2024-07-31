@@ -1,0 +1,164 @@
+.manageTransactionsContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.menuContainer {
+    display: flex;
+    align-items: center;
+}
+
+.menuContainer select,
+.menuContainer button {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menuContainer button:hover {
+    text-decoration: underline;
+}
+
+.panelsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.leftPanel {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.leftPanel h2 {
+    margin-bottom: 10px;
+}
+
+.leftPanel div {
+    margin-bottom: 15px;
+}
+
+.leftPanel label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.leftPanel input,
+.leftPanel select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.leftPanel button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.leftPanel button:hover {
+    background-color: #0056b3;
+}
+
+.rightPanel {
+    flex: 1;
+    position: relative;
+    overflow-y: auto;
+    max-height: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.rightPanel h2 {
+    margin-bottom: 10px;
+}
+
+.dateFilterContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dateFilterContainer label {
+    margin-right: 10px;
+}
+
+.dateFilterContainer input,
+.dateFilterContainer select {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.dateFilterContainer button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.dateFilterContainer button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+ul li button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul li button:hover {
+    background-color: #c82333;
+}
